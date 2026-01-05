@@ -13,13 +13,13 @@ struct ContentView: View {
             Tab(Constants.homeString, systemImage: Constants.homeIconString) {
                 Text(Constants.homeString)
             }
-            Tab(Constants.upcomingString, systemImage: "play.circle") {
+            Tab(Constants.upcomingString, systemImage: Constants.upcomingIconString) {
                 Text(Constants.upcomingString)
             }
-            Tab(Constants.searchString, systemImage: "magnifyingglass") {
+            Tab(Constants.searchString, systemImage: Constants.searchIconString ) {
                 Text(Constants.searchString)
             }
-            Tab(Constants.downloadString, systemImage: "arrow.down.to.line") {
+            Tab(Constants.downloadString, systemImage: Constants.downloadIconString) {
                 Text(Constants.downloadString)
             }
             
