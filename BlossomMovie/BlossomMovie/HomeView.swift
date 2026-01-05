@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct HomeView: View {
+    var heroTestTitle = Constants.testTitleURL
+    
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            // async for loading the image on a diff thread
+            AsyncImage(url: URL(string: heroTestTitle)) 
+        }
     }
 }
 
