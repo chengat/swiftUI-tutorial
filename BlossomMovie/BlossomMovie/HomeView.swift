@@ -12,7 +12,7 @@ struct HomeView: View {
     
     
     var body: some View {
-        VStack { // vertical stack
+        VStack { // vertical stack - for on top of each other
             // async for loading the image on a diff thread
             AsyncImage(url: URL(string: heroTestTitle)) { image in
                 image
@@ -21,6 +21,14 @@ struct HomeView: View {
                 
             } placeholder: {
                 ProgressView() // will show progress circle when loading the image
+            }
+            
+            HStack { // horizontal stack - for side by side
+                Button {
+                    
+                } label: {
+                    Text("Hello")
+                }
             }
         }
     }
