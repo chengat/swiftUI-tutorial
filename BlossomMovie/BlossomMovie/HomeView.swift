@@ -12,9 +12,16 @@ struct HomeView: View {
     
     
     var body: some View {
-        VStack {
+        VStack { // vertical stack
             // async for loading the image on a diff thread
-            AsyncImage(url: URL(string: heroTestTitle)) 
+            AsyncImage(url: URL(string: heroTestTitle)) { image in
+                image
+                    .resizable() // these are modififers
+                    .scaledToFit()
+                
+            } placeholder: {
+                ProgressView() // will show progress circle when loading the image
+            }
         }
     }
 }
