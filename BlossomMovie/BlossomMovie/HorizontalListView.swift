@@ -27,6 +27,7 @@ struct HorizontalListView: View {
                         } placeholder: {
                             ProgressView()
                         }
+                        .frame(width: 120, height: 200)
                         
                     }
                 }
