@@ -28,12 +28,13 @@ struct HorizontalListView: View {
                             ProgressView()
                         }
                         .frame(width: 120, height: 200)
-                        
                     }
                 }
             }
                 
         }
+        .frame(height:250)
+        .padding(10) // default is 16 pt
     }
 }
 
