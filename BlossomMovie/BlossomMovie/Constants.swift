@@ -18,4 +18,6 @@ struct Constants {
     static let searchIconString = "magnifyingglass"
     static let downloadIconString = "arrow.down.to.line"
     
+    static let testTitleURL = "https://image.tmdb.org/t/p/w1280/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg"
+    
 }
