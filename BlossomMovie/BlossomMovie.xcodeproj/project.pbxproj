@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		CE26A8C72F0B3AB80039AA9F /* BlossomMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlossomMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE26A8DE2F0B3CB70039AA9F /* BlossomMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlossomMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CE26A8C92F0B3AB80039AA9F /* BlossomMovie */ = {
+		CE26A8E02F0B3CB70039AA9F /* BlossomMovie */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BlossomMovie;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE26A8C42F0B3AB80039AA9F /* Frameworks */ = {
+		CE26A8DB2F0B3CB70039AA9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE26A8BE2F0B3AB80039AA9F = {
+		CE26A8D52F0B3CB70039AA9F = {
 			isa = PBXGroup;
 			children = (
-				CE26A8C92F0B3AB80039AA9F /* BlossomMovie */,
-				CE26A8C82F0B3AB80039AA9F /* Products */,
+				CE26A8E02F0B3CB70039AA9F /* BlossomMovie */,
+				CE26A8DF2F0B3CB70039AA9F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE26A8C82F0B3AB80039AA9F /* Products */ = {
+		CE26A8DF2F0B3CB70039AA9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE26A8C72F0B3AB80039AA9F /* BlossomMovie.app */,
+				CE26A8DE2F0B3CB70039AA9F /* BlossomMovie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE26A8C62F0B3AB80039AA9F /* BlossomMovie */ = {
+		CE26A8DD2F0B3CB70039AA9F /* BlossomMovie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE26A8D22F0B3ABA0039AA9F /* Build configuration list for PBXNativeTarget "BlossomMovie" */;
+			buildConfigurationList = CE26A8E92F0B3CB80039AA9F /* Build configuration list for PBXNativeTarget "BlossomMovie" */;
 			buildPhases = (
-				CE26A8C32F0B3AB80039AA9F /* Sources */,
-				CE26A8C42F0B3AB80039AA9F /* Frameworks */,
-				CE26A8C52F0B3AB80039AA9F /* Resources */,
+				CE26A8DA2F0B3CB70039AA9F /* Sources */,
+				CE26A8DB2F0B3CB70039AA9F /* Frameworks */,
+				CE26A8DC2F0B3CB70039AA9F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CE26A8C92F0B3AB80039AA9F /* BlossomMovie */,
+				CE26A8E02F0B3CB70039AA9F /* BlossomMovie */,
 			);
 			name = BlossomMovie;
 			packageProductDependencies = (
 			);
 			productName = BlossomMovie;
-			productReference = CE26A8C72F0B3AB80039AA9F /* BlossomMovie.app */;
+			productReference = CE26A8DE2F0B3CB70039AA9F /* BlossomMovie.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE26A8BF2F0B3AB80039AA9F /* Project object */ = {
+		CE26A8D62F0B3CB70039AA9F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					CE26A8C62F0B3AB80039AA9F = {
+					CE26A8DD2F0B3CB70039AA9F = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
-			buildConfigurationList = CE26A8C22F0B3AB80039AA9F /* Build configuration list for PBXProject "BlossomMovie" */;
+			buildConfigurationList = CE26A8D92F0B3CB70039AA9F /* Build configuration list for PBXProject "BlossomMovie" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = CE26A8BE2F0B3AB80039AA9F;
+			mainGroup = CE26A8D52F0B3CB70039AA9F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CE26A8C82F0B3AB80039AA9F /* Products */;
+			productRefGroup = CE26A8DF2F0B3CB70039AA9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE26A8C62F0B3AB80039AA9F /* BlossomMovie */,
+				CE26A8DD2F0B3CB70039AA9F /* BlossomMovie */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE26A8C52F0B3AB80039AA9F /* Resources */ = {
+		CE26A8DC2F0B3CB70039AA9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE26A8C32F0B3AB80039AA9F /* Sources */ = {
+		CE26A8DA2F0B3CB70039AA9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CE26A8D02F0B3ABA0039AA9F /* Debug */ = {
+		CE26A8E72F0B3CB80039AA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		CE26A8D12F0B3ABA0039AA9F /* Release */ = {
+		CE26A8E82F0B3CB80039AA9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +244,7 @@
 			};
 			name = Release;
 		};
-		CE26A8D32F0B3ABA0039AA9F /* Debug */ = {
+		CE26A8EA2F0B3CB80039AA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -275,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		CE26A8D42F0B3ABA0039AA9F /* Release */ = {
+		CE26A8EB2F0B3CB80039AA9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -309,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE26A8C22F0B3AB80039AA9F /* Build configuration list for PBXProject "BlossomMovie" */ = {
+		CE26A8D92F0B3CB70039AA9F /* Build configuration list for PBXProject "BlossomMovie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE26A8D02F0B3ABA0039AA9F /* Debug */,
-				CE26A8D12F0B3ABA0039AA9F /* Release */,
+				CE26A8E72F0B3CB80039AA9F /* Debug */,
+				CE26A8E82F0B3CB80039AA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE26A8D22F0B3ABA0039AA9F /* Build configuration list for PBXNativeTarget "BlossomMovie" */ = {
+		CE26A8E92F0B3CB80039AA9F /* Build configuration list for PBXNativeTarget "BlossomMovie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE26A8D32F0B3ABA0039AA9F /* Debug */,
-				CE26A8D42F0B3ABA0039AA9F /* Release */,
+				CE26A8EA2F0B3CB80039AA9F /* Debug */,
+				CE26A8EB2F0B3CB80039AA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CE26A8BF2F0B3AB80039AA9F /* Project object */;
+	rootObject = CE26A8D62F0B3CB70039AA9F /* Project object */;
 }
