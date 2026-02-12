@@ -33,18 +33,20 @@ struct ContentView: View {
                 // Scores
                 HStack (){
                     Spacer()
-                    VStack(spacing: 30){
+                    VStack(){
                         Text("Player")
                             .font(.headline)
                             .fontWeight(.semibold)
+                            .padding(.bottom)
                         Text("0")
                             .font(.largeTitle)
                     }
                     Spacer()
-                    VStack(spacing: 30){
+                    VStack(){
                         Text("CPU")
                             .font(.headline)
                             .fontWeight( .semibold)
+                            .padding(.bottom)
                         Text("0")
                             .font(.largeTitle)
                     }
