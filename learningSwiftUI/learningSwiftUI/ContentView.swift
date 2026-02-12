@@ -36,14 +36,18 @@ struct ContentView: View {
                     }.foregroundStyle(.yellow)
                         .font(Font.headline)
                     
-                   
-                        
-                    
                     
                 }
                 Text("These kitties are so adorable!")
                 
                 
+                HStack {
+                    Spacer()
+                    Image(systemName: "heart.fill")
+                    Image(systemName: "pawprint.fill")
+                    
+                }.foregroundStyle(Color(.lightGray))
+                    .font(Font.caption)
                 
             }.padding()
                 .background(){
