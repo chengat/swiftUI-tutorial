@@ -6,4 +6,10 @@ var cpuScore = 0
 
 playerScore += 1
 
-print(playerScore)
+//print(playerScore)
+
+func myFunction() {
+    print("hey")
+}
+
+myFunction()
