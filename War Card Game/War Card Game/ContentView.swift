@@ -13,23 +13,26 @@ struct ContentView: View {
             
             // Background
             Image("background-wood-grain")
-            VStack(spacing: 50){
-                
+            VStack(){
+                Spacer()
                 // Logo
                 Image("logo")
-                
+                Spacer()
                 // Cards
-                HStack(spacing: 50) {
+                HStack {
+                    Spacer()
                     Image("card2")
-                   
+                    Spacer()
                     Image("card3")
+                    Spacer()
                 }
-                
+                Spacer()
                 // Button
                 Image("button")
-                
+                Spacer()
                 // Scores
-                HStack (spacing: 80){
+                HStack (){
+                    Spacer()
                     VStack(spacing: 30){
                         Text("Player")
                             .font(Font.title2)
@@ -37,7 +40,7 @@ struct ContentView: View {
                         Text("0")
                             .font(Font.largeTitle.bold())
                     }
-                    
+                    Spacer()
                     VStack(spacing: 30){
                         Text("CPU")
                             .font(Font.title2)
@@ -45,10 +48,11 @@ struct ContentView: View {
                         Text("0")
                             .font(Font.largeTitle.bold())
                     }
+                    Spacer()
                     
                 }
                 .foregroundColor(Color.white)
-                
+                Spacer()
                 
             }
             .padding()
