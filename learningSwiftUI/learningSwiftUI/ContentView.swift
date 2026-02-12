@@ -9,56 +9,63 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            Color(.blue)
-                .ignoresSafeArea()
-            VStack (alignment: .leading) {
-               
-                Image("kitty")
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(RoundedRectangle(cornerRadius: 16))
-                    
-                
-                HStack {
-                    Text("Kiki's Kitties!")
-                        .font(Font.title)
-                        .fontWeight(.bold)
-                    Spacer()
-                    VStack{
-                        Text("4 cuties")
+        TabView {
+            Tab ("Home", systemImage: "house"){
+                ZStack {
+                    Color(.blue)
+                        .ignoresSafeArea()
+                    VStack (alignment: .leading) {
+                       
+                        Image("kitty")
+                            .resizable()
+                            .scaledToFit()
+                            .clipShape(RoundedRectangle(cornerRadius: 16))
+                            
+                        
                         HStack {
-                            Image(systemName: "cat.fill")
-                            Image(systemName: "cat.fill")
-                            Image(systemName: "cat.fill")
-                            Image(systemName: "cat.fill").foregroundStyle(.black)
+                            Text("Kiki's Kitties!")
+                                .font(Font.title)
+                                .fontWeight(.bold)
+                            Spacer()
+                            VStack{
+                                Text("4 cuties")
+                                HStack {
+                                    Image(systemName: "cat.fill")
+                                    Image(systemName: "cat.fill")
+                                    Image(systemName: "cat.fill")
+                                    Image(systemName: "cat.fill").foregroundStyle(.black)
+                                }
+                            }.foregroundStyle(.yellow)
+                                .font(Font.headline)
+                            
+                            
                         }
-                    }.foregroundStyle(.yellow)
-                        .font(Font.headline)
+                        Text("These kitties are so adorable!")
+                        
+                        
+                        HStack {
+                            Spacer()
+                            Image(systemName: "heart.fill")
+                            Image(systemName: "pawprint.fill")
+                            
+                        }.foregroundStyle(Color(.lightGray))
+                            .font(Font.caption)
+                        
+                        
+                    }.padding()
+                        .background(){
+                            Rectangle()
+                                .foregroundStyle(.background)
+                            
+                        }.clipShape(RoundedRectangle(cornerRadius: 16))
+                        .padding(20)
                     
                     
                 }
-                Text("These kitties are so adorable!")
-                
-                
-                HStack {
-                    Spacer()
-                    Image(systemName: "heart.fill")
-                    Image(systemName: "pawprint.fill")
-                    
-                }.foregroundStyle(Color(.lightGray))
-                    .font(Font.caption)
-                
-            }.padding()
-                .background(){
-                    Rectangle()
-                        .foregroundStyle(.white)
-                    
-                }.clipShape(RoundedRectangle(cornerRadius: 16))
-                .padding(20)
-            
-            
+            }
         }
+
+        
     }
 }
 
