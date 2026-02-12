@@ -35,18 +35,18 @@ struct ContentView: View {
                     Spacer()
                     VStack(spacing: 30){
                         Text("Player")
-                            .font(Font.title2)
+                            .font(.headline)
                             .fontWeight(.semibold)
                         Text("0")
-                            .font(Font.largeTitle.bold())
+                            .font(.largeTitle)
                     }
                     Spacer()
                     VStack(spacing: 30){
                         Text("CPU")
-                            .font(Font.title2)
+                            .font(.headline)
                             .fontWeight( .semibold)
                         Text("0")
-                            .font(Font.largeTitle.bold())
+                            .font(.largeTitle)
                     }
                     Spacer()
                     
