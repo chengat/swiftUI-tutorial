@@ -10,17 +10,25 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
+            
+            // Background
             Image("background-wood-grain")
             VStack(spacing: 50){
+                
+                // Logo
                 Image("logo")
                 
+                // Cards
                 HStack(spacing: 50) {
                     Image("card2")
                    
                     Image("card3")
                 }
+                
+                // Button
                 Image("button")
                 
+                // Scores
                 HStack (spacing: 80){
                     VStack(spacing: 30){
                         Text("Player")
