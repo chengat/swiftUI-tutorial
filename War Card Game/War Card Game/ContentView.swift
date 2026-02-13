@@ -19,6 +19,9 @@ struct ContentView: View {
             
             // Background
             Image("background-wood-grain")
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
             VStack(){
                 Spacer()
                 // Logo
