@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    var playerCard = "card2"
-    var cpuCard = "card3"
-    
-    var playerScore = 0
-    var cpuScore = 0
+    // @State needs to be add to global var especially if used by other elements in the view
+   @State var playerCard = "card2"
+   @State var cpuCard = "card3"
+   @State var playerScore = 0
+   @State var cpuScore = 0
     
     var body: some View {
         ZStack{
@@ -73,11 +73,31 @@ struct ContentView: View {
             .padding()
         }
     }
+    func dealCard() {
+        // Randomize
+        let playerValue = Int.random(in: 2...14)
+        let cpuValue = Int.random(in: 2...14)
+        
+        // Change card
+        playerCard = "card" + String(playerValue)
+        cpuCard = "card" + String(cpuValue)
+        
+        // compare and change score
+        if playerValue > cpuValue {
+            playerScore += 1
+        }
+        else if cpuValue > playerValue {
+            cpuScore += 1
+        }
+        else {
+            playerScore += 1
+            cpuScore += 1
+        }
+     
+    }
 }
 
-func dealCard() {
-    //implement logic
-}
+
 
 #Preview {
     ContentView()
